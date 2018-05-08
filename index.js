@@ -37,9 +37,9 @@ class Passenger {
       return trip.passengerId === this.id
     })
   }
-
-  drivers(){
-  }
+  // 
+  // drivers(){
+  // }
 }
 
 class Trip {
