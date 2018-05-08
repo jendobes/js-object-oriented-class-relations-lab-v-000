@@ -44,7 +44,7 @@ class Passenger {
   }
 }
 
-// class Trip {
+class Trip {
 //   constructor(passenger, driver) {
 //     this.id = ++tripId
 //     this.passenger = passenger.id
@@ -63,8 +63,8 @@ class Passenger {
 //       return passenger.id === this.passengerId
 //     })
 //   }
-
-class Trip {
+// 
+// class Trip {
   constructor(driver, passenger) {
     this.driverId = driver.id;
     this.passengerId = passenger.id;
