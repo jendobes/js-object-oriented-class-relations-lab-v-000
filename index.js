@@ -24,4 +24,12 @@ class Passenger {
     this.id = ++passengerId
     this.name = name
   }
+
+  rips() {
+
+  }
+
+  drivers(){
+
+  }
 }
