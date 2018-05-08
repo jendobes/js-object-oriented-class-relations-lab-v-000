@@ -45,12 +45,12 @@ class Passenger {
 }
 
 class Trip {
-  constructor(passenger, driver) {
-    this.id = ++tripId
-    this.passenger = passenger.id
-    this.driver = driver.id
-    store.trips.push(this)
-  }
+  // constructor(passenger, driver) {
+  //   this.id = ++tripId
+  //   this.passenger = passenger.id
+  //   this.driver = driver.id
+  //   store.trips.push(this)
+  // }
 //
 //   driver(){
 //     return store.drivers.find(driver => {
